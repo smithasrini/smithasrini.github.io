@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Food Photos'
+theme = 'hugo-theme-gallery'
