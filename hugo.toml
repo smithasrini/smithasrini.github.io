@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://smithasrini.github.io/'
 languageCode = 'en-us'
 title = 'Food Photos'
 theme = 'hugo-theme-gallery'
