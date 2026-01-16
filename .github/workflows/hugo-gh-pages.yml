@@ -22,12 +22,11 @@ jobs:
           extended: true
 
       - name: Build
-        working-directory: ./autophugo-site
         run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./autophugo-site/public
+          publish_dir: ./public
           publish_branch: gh-pages
